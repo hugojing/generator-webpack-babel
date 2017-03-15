@@ -1,14 +1,14 @@
 {
   "name": "generator-webpack-babel",
-  "version": "0.6.5",
+  "version": "0.7.1",
   "description": "2017 Basic Web dev template for newbee, and readers of hugojing/web-lessons.",
   "homepage": "https://github.com/hugojing/generator-webpack-babel",
+  "bugs": "https://github.com/hugojing/generator-webpack-babel/issues",
   "author": {
     "name": "hugojing",
     "email": "toloric@163.com",
     "url": "https://changshiban.com"
   },
-  "main": "app/index.js",
   "keywords": [
     "webpack",
     "babel",
@@ -17,8 +17,7 @@
   ],
   "dependencies": {
     "chalk": "^1.1.3",
-    "yeoman-generator": "^1.0.0",
-    "yosay": "^1.2.1"
+    "yeoman-generator": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^3.1.1",

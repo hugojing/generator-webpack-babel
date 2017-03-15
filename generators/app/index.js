@@ -1,7 +1,6 @@
 'use strict';
 var Generator = require('yeoman-generator');
 var chalk = require('chalk');
-var yosay = require('yosay');
 
 module.exports = Generator.extend({
   prompting: function () {
@@ -27,11 +26,15 @@ module.exports = Generator.extend({
     this.fs.copy(
       this.templatePath('*'),
       this.destinationRoot(),
-      { globOptions: { dot: true } }
+      {globOptions: {dot: true}}
     );
     this.fs.copy(
       this.templatePath('src'),
       this.destinationPath('src')
+    );
+    this.fs.copy(
+      this.templatePath('src/assets/images/yeoman-logo.png'),
+      this.destinationPath('src/assets/images/yeoman-logo.png')
     );
   },
 

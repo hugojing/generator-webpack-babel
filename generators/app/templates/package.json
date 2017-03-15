@@ -1,7 +1,7 @@
 {
-  "name": "your-project-name",
+  "name": "my-project-name",
   "version": "1.0.0",
-  "author": "YOUR NAME",
+  "author": "AUTHOR NAME",
   "license": "MIT",
   "scripts": {
     "dist": "rm -rf ./dist && mkdir ./dist && webpack --config build.js"

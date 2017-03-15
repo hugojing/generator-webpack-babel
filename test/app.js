@@ -12,7 +12,14 @@ describe('generator-webpack-babel:app', function () {
 
   it('creates files', function () {
     assert.file([
-      'dummyfile.txt'
+      path.join(__dirname, '../generators/app/templates/.babelrc'),
+      path.join(__dirname, '../generators/app/templates/.gitignore'),
+      path.join(__dirname, '../generators/app/templates/.npmrc'),
+      path.join(__dirname, '../generators/app/templates/build.js'),
+      path.join(__dirname, '../generators/app/templates/package.json'),
+      path.join(__dirname, '../generators/app/templates/README.md'),
+      path.join(__dirname, '../generators/app/templates/yarn.lock'),
+      path.join(__dirname, '../generators/app/templates/src/index.html')
     ]);
   });
 });
