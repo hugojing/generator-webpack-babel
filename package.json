@@ -1,6 +1,6 @@
 {
   "name": "generator-webpack-babel",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "2017 Basic Web dev template for newbee, and readers of hugojing/web-lessons.",
   "homepage": "https://github.com/hugojing/generator-webpack-babel",
   "bugs": "https://github.com/hugojing/generator-webpack-babel/issues",
