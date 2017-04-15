@@ -1,7 +1,7 @@
 'use strict';
-var path = require('path');
-var assert = require('yeoman-assert');
-var helpers = require('yeoman-test');
+const path = require('path');
+const assert = require('yeoman-assert');
+const helpers = require('yeoman-test');
 
 describe('generator-webpack-babel:app', function () {
   before(function () {
@@ -11,15 +11,16 @@ describe('generator-webpack-babel:app', function () {
   });
 
   it('creates files', function () {
+    const tplPath = path.resolve(__dirname, '../generators/app/templates');
     assert.file([
-      path.join(__dirname, '../generators/app/templates/.babelrc'),
-      path.join(__dirname, '../generators/app/templates/.gitignore'),
-      path.join(__dirname, '../generators/app/templates/.npmrc'),
-      path.join(__dirname, '../generators/app/templates/build.js'),
-      path.join(__dirname, '../generators/app/templates/package.json'),
-      path.join(__dirname, '../generators/app/templates/README.md'),
-      path.join(__dirname, '../generators/app/templates/yarn.lock'),
-      path.join(__dirname, '../generators/app/templates/src/index.html')
-    ]);
+      '.babelrc',
+      '.gitignore',
+      '.npmrc',
+      'package.json',
+      'README.md',
+      'yarn.lock',
+      'src/index.html',
+      'build/base.js'
+    ].map(f => path.join(tplPath, f)));
   });
 });
