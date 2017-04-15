@@ -5,9 +5,9 @@
 ## Installation & Setting up
 
 ```
-$ yarn global add yo
+$ npm i -g yo
 
-$ yarn global add generator-webpack-babel
+$ npm i -g generator-webpack-babel
 
 $ mkdir my-new-project && cd my-new-project
 
