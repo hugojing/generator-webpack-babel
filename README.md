@@ -1,6 +1,7 @@
 # generator-webpack-babel
 
 [![Build Status](https://img.shields.io/travis/hugojing/generator-webpack-babel/master.svg?style=flat-square)](https://travis-ci.org/hugojing/generator-webpack-babel)
+[![Coveralls](https://img.shields.io/coveralls/hugojing/generator-webpack-babel.svg?style=flat-square)](https://coveralls.io/github/hugojing/generator-webpack-babel)
 [![npm](https://img.shields.io/npm/v/generator-webpack-babel.svg?style=flat-square)](https://www.npmjs.com/package/generator-webpack-babel)
 [![npm](https://img.shields.io/npm/l/generator-webpack-babel.svg?style=flat-square)](https://github.com/hugojing/generator-webpack-babel/blob/master/LICENSE)
 
