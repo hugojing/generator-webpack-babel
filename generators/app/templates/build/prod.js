@@ -5,8 +5,9 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin")
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-const { SRC_PATH, DIST_PATH, MODULE_PATH } = require('./utils')
+const { SRC_PATH } = require('./utils')
 const base = require('./base')
+base.output.publicPath = './'
 
 const prod = {
   module: {

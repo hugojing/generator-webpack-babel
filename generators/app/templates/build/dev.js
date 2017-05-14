@@ -2,7 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const { SRC_PATH, DIST_PATH } = require('./utils')
+const { SRC_PATH } = require('./utils')
 const base = require('./base')
 
 const dev = {

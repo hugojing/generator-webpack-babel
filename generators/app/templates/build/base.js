@@ -1,9 +1,9 @@
 const path = require('path')
-const { SRC_PATH, DIST_PATH, MODULE_PATH } = require('./utils')
+const { SRC_PATH, DIST_PATH } = require('./utils')
 
 module.exports = {
   entry: {
-    'main': path.resolve(SRC_PATH, 'main')
+    main: path.resolve(SRC_PATH, 'main')
   },
   output: {
     path: DIST_PATH,
